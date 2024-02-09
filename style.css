@@ -166,12 +166,8 @@ option{
     margin: auto;
     z-index: 100;
 }
-.img-col video{
-    position: absolute;
-    z-index: -1;
-    right:15.5vw;
-    top:128vh;
-}
+
+
 .features h2 {
     font-size: 50px;
     font-weight: 600;
@@ -298,11 +294,14 @@ input[type="checkbox"] {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .logo {
         width: 100px;
     }
-
+    #tvv,video{
+        display: none;
+        max-height: 0;
+    }
     nav button {
         padding: 5px 10px;
     }
@@ -363,3 +362,4 @@ input[type="checkbox"] {
         font-size: 22px;
     }
 }
+
